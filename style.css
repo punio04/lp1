@@ -136,7 +136,7 @@ body .main *:first-child {
 
 @media(max-width: 768px) {
   .main {
-    padding: 10px;
+    padding: 2rem 20px;
   }
 }
 
@@ -179,11 +179,10 @@ body .main *:first-child {
 
 @media(max-width: 768px) {
   .main>h3:not([class]) {
-    margin: 1em -2em;
     padding: 1em 0px;
-    font-size: 5vw;
+    font-size: 5.4vw;
     width: 100%;
-    margin: 2rem auto;
+    margin: 2.5rem auto;
   }
 }
 
@@ -731,7 +730,7 @@ div {
   list-style-type: none;
   border: solid 4px #d15d49;
   padding: 40px 0 0px;
-  margin: 4px auto 40px;
+  margin: 4px auto 0px;
   overflow: hidden;
   display: block;
 }
@@ -888,6 +887,7 @@ img {
 .title {
   font-size: 30px;
   line-height: 1.75;
+  margin-top: 40px;
 }
 
 .imgspace {
@@ -949,8 +949,36 @@ html {
   display: block;
 }
 
+.video {
+  margin: 40px 0 0 0;
+}
+
+.sp {
+  display: none;
+}
+
+.pc {
+  display: block;
+}
+
 /* レスポンシブ対応の調整 */
 @media screen and (max-width: 768px) {
+
+  .sp {
+    display: block;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  #dame .li2 {
+    font-size: 21px;
+  }
+
+  #dame .li1 {
+    font-size: 21px;
+  }
 
   .imgspace {
     padding: 20px 0 0 0;
@@ -973,6 +1001,10 @@ html {
     width: 100%;
     padding: 10px;
     background-image: url(images/cta_main_sp.jpg);
+  }
+
+  .video {
+    margin: 2rem 0 0 0;
   }
 
   .inputText {
@@ -1027,8 +1059,36 @@ html {
   }
 }
 
+@media screen and (max-width: 450px) {
+  #dame .li2 {
+    background-image: url(images/check1.png);
+    background-repeat: no-repeat;
+    background-position: 2px 0px;
+    width: 100%;
+    padding: 0px 0px 20px 55px;
+    margin: 0px auto 20px;
+    display: block;
+  }
 
-@media screen and (max-width: 425px) {
+  #dame {
+    padding: 40px 20px 0px;
+    margin: 0px auto 40px;
+  }
+
+  #dame .li1 {
+    background-image: url(images/check1.png);
+    background-repeat: no-repeat;
+    background-position: 2px 0px;
+    width: 100%;
+    border-bottom: solid 1px #CCCCCC;
+    padding: 0px 0px 20px 55px;
+    margin: 0px auto 20px;
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
   .small {
     font-size: 18px;
     font-weight: 600;
@@ -1043,7 +1103,7 @@ html {
     list-style-type: none;
     border: solid 4px #d15d49;
     padding: 20px 15px 0px 15px;
-    margin: 4px auto 40px;
+    margin: 8px auto 0px;
     overflow: hidden;
     display: block;
   }
@@ -1053,11 +1113,31 @@ html {
     padding: 4px 8px;
     font-weight: bold;
     color: #d15d49;
-    font-size: 24px;
+    font-size: 22px;
+  }
+
+  .l-flex.--center a {
+    font-size: 1rem;
+  }
+
+  .p-footer__item+.p-footer__item::before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: currentColor;
+    margin: 0px 7px 0px 10px;
+  }
+
+  .voc__header-group {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 
   bold {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bolder;
   }
 
@@ -1094,9 +1174,28 @@ html {
 
   .main>h3:not([class]) {
     padding: 1em 0px;
-    font-size: 22px;
-    width: 100%;
+    font-size: 26px;
     margin: 2rem auto;
+  }
+
+  .imgspace {
+    padding: 2rem 0 0 0;
+  }
+
+  .img_underfont {
+    text-align: center;
+    font-size: 15px;
+    color: #40413e;
+    font-weight: lighter;
+    padding-bottom: 18px;
+  }
+
+  .video {
+    margin: 2rem 0 0 0;
+  }
+
+  .main {
+    padding: 2rem 20px;
   }
 
   #dame .li3 {
@@ -1108,7 +1207,7 @@ html {
     padding: 0px 0px 20px 30px;
     margin: 0px auto 20px;
     display: block;
-    font-size: 15px;
+    font-size: 18px;
   }
 
   #dame .li4 {
@@ -1117,20 +1216,25 @@ html {
     background-position: 2px 5px;
     width: 100%;
     padding: 0px 0px 20px 30px;
-    margin: 0px auto 20px;
+    margin: 0px auto 0px;
     display: block;
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .box_qa_q,
   .box_qa_a {
-    font-size: 21px;
+    font-size: 18px !important;
     padding: 10px;
+  }
+
+  .big2 {
+    font-size: 1.3em !important;
+    font-weight: bold;
   }
 
   .name {
     text-align: right;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: bolder;
     font-family: serif;
     padding-top: 0px;
@@ -1162,7 +1266,7 @@ html {
   }
 
   .main p:not([class]) {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.75;
   }
 
@@ -1173,7 +1277,8 @@ html {
   }
 
   .title {
-    font-size: 22px;
+    font-size: 19px;
     line-height: 1.75;
+    margin-top: 1.5rem;
   }
 }
