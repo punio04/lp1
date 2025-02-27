@@ -276,9 +276,9 @@ span.taitle-color {
 }
 
 .voc__photo {
-  width: 150px;
+  width: 190px;
   float: right;
-  margin: 0 0 20px;
+  margin: 0 0 20px 20px;
   border-radius: 50%;
 }
 
@@ -1041,7 +1041,7 @@ html {
   }
 
   .voc__photo {
-    width: 200px;
+    width: 230px;
   }
 
   .box_qa_q,
@@ -1093,6 +1093,10 @@ html {
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
+  }
+
+  .voc__photo {
+    width: 170px;
   }
 
   #dame {
