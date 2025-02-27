@@ -1061,7 +1061,7 @@ html {
 
 @media screen and (max-width: 450px) {
   #dame .li2 {
-    background-image: url(images/check1.png);
+    background-image: url(images/check1_sp.png);
     background-repeat: no-repeat;
     background-position: 2px 0px;
     width: 100%;
@@ -1076,7 +1076,7 @@ html {
   }
 
   #dame .li1 {
-    background-image: url(images/check1.png);
+    background-image: url(images/check1_sp.png);
     background-repeat: no-repeat;
     background-position: 2px 0px;
     width: 100%;
@@ -1110,10 +1110,10 @@ html {
 
   h3 span.highlight {
     background-color: #f7ec6e;
-    padding: 4px 8px;
+    padding: 2px 8px;
     font-weight: bold;
     color: #d15d49;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .l-flex.--center a {
@@ -1142,23 +1142,23 @@ html {
   }
 
   #dame .li1 {
-    background-image: url(images/check1.png);
+    background-image: url(images/check1_sp.png);
     background-repeat: no-repeat;
     background-position: 2px 0px;
     width: 100%;
     border-bottom: solid 1px #CCCCCC;
-    padding: 0px 0px 20px 44px;
+    padding: 0px 0px 20px 35px;
     margin: 0px auto 20px;
     display: block;
     font-size: 15px;
   }
 
   #dame .li2 {
-    background-image: url(images/check1.png);
+    background-image: url(images/check1_sp.png);
     background-repeat: no-repeat;
     background-position: 2px 0px;
     width: 100%;
-    padding: 0px 0px 0px 44px;
+    padding: 0px 0px 0px 35px;
     margin: 0px auto 20px;
     display: block;
     font-size: 15px;
@@ -1169,12 +1169,12 @@ html {
   }
 
   .voc h4.voc__head {
-    font-size: 5.5vw;
+    font-size: 22px;
   }
 
   .main>h3:not([class]) {
     padding: 1em 0px;
-    font-size: 26px;
+    font-size: 23px;
     margin: 2rem auto;
   }
 
@@ -1199,23 +1199,23 @@ html {
   }
 
   #dame .li3 {
-    background-image: url(images/check2.png);
+    background-image: url(images/check2_sp.png);
     background-repeat: no-repeat;
     background-position: 2px 5px;
     width: 100%;
     border-bottom: solid 1px #CCCCCC;
-    padding: 0px 0px 20px 30px;
+    padding: 0px 0px 20px 22px;
     margin: 0px auto 20px;
     display: block;
     font-size: 18px;
   }
 
   #dame .li4 {
-    background-image: url(images/check2.png);
+    background-image: url(images/check2_sp.png);
     background-repeat: no-repeat;
     background-position: 2px 5px;
     width: 100%;
-    padding: 0px 0px 20px 30px;
+    padding: 0px 0px 20px 22px;
     margin: 0px auto 0px;
     display: block;
     font-size: 18px;
@@ -1277,7 +1277,7 @@ html {
   }
 
   .title {
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.75;
     margin-top: 1.5rem;
   }
