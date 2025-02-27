@@ -237,7 +237,7 @@ bold {
 
 .img_underfont {
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
   color: #40413e;
   font-weight: lighter;
   padding-bottom: 35px;
@@ -1150,7 +1150,7 @@ html {
     padding: 0px 0px 20px 35px;
     margin: 0px auto 20px;
     display: block;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   #dame .li2 {
@@ -1161,11 +1161,11 @@ html {
     padding: 0px 0px 0px 35px;
     margin: 0px auto 20px;
     display: block;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .text-small {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .voc h4.voc__head {
@@ -1184,7 +1184,7 @@ html {
 
   .img_underfont {
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     color: #40413e;
     font-weight: lighter;
     padding-bottom: 18px;
@@ -1207,7 +1207,7 @@ html {
     padding: 0px 0px 20px 22px;
     margin: 0px auto 20px;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #dame .li4 {
@@ -1218,12 +1218,12 @@ html {
     padding: 0px 0px 20px 22px;
     margin: 0px auto 0px;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .box_qa_q,
   .box_qa_a {
-    font-size: 18px !important;
+    font-size: 16px !important;
     padding: 10px;
   }
 
@@ -1234,7 +1234,7 @@ html {
 
   .name {
     text-align: right;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bolder;
     font-family: serif;
     padding-top: 0px;
@@ -1266,7 +1266,7 @@ html {
   }
 
   .main p:not([class]) {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.75;
   }
 
@@ -1277,7 +1277,7 @@ html {
   }
 
   .title {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.75;
     margin-top: 1.5rem;
   }
